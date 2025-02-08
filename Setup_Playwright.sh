@@ -25,4 +25,7 @@ pip3 install pytest-playwright
 echo "Install the required browsers"
 playwright install
 
+echo "Running the Playwright tests"
+pytest -s --headed
+
 

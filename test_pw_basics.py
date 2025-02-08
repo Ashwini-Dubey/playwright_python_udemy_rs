@@ -1,4 +1,4 @@
-from playwright.sync_api
+from playwright.sync_api import Playwright
 
 # Works with the browsers such as firefox , chromium engine in headed mode.
 # This can be used when working with the frameworks
@@ -12,4 +12,6 @@ def test_pw_browser_launcher(playwright):
     context = browser.new_context()
     page = context.new_page()
     page.goto("https://rahulshettyacademy.com")
+    
+
 
