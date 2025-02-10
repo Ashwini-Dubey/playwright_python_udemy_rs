@@ -1,6 +1,6 @@
 from playwright.sync_api import Page, expect
 
-def test_pw_invalid_login(page: Page):
+def test_pw_valid_login_dynamic_card_selection(page: Page):
     """
     Test invalid login functionality using Playwright locators
     and dynamic selection of products.
