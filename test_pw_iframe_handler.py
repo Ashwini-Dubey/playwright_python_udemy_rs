@@ -1,6 +1,6 @@
 from playwright.sync_api import Page, expect
 
-def test_pw_child_window_tabs_handler(page: Page):
+def test_pw_iframe_handler(page: Page):
     """
     This test automates interactions with an iframe on the Automation Practice page.
     It navigates to the webpage, locates the iframe, clicks on a link inside the iframe,

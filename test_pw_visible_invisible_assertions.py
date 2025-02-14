@@ -1,6 +1,6 @@
 from playwright.sync_api import Page, expect
 
-def test_pw_child_window_tabs_handler(page: Page):
+def test_pw_visible_invisible_assertions(page: Page):
     """
     Test visibility toggle functionality using Playwright.
     """

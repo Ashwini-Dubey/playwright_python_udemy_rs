@@ -1,6 +1,6 @@
 from playwright.sync_api import Page, expect
 
-def test_pw_child_window_tabs_handler(page: Page):
+def test_pw_alerts_popups_handler(page: Page):
     """
     Test handling JavaScript alert and confirm popups using Playwright.
     """
