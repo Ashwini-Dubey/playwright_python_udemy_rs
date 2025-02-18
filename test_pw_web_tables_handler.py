@@ -13,4 +13,4 @@ def test_pw_web_tables_handler(page: Page):
             break
 
     riceRow = page.locator("tr").filter(has_text="Potato")
-    print(riceRow)
+    expect(riceRow.locator("td").nth(priceColValue)).to_have_text("34")
