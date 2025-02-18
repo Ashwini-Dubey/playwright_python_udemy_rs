@@ -13,3 +13,4 @@ def test_pw_web_tables_handler(page: Page):
             break
 
     riceRow = page.locator("tr").filter(has_text="Potato")
+    print(riceRow)
